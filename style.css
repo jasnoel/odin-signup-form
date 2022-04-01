@@ -54,6 +54,25 @@ body {
     flex-grow: 1;
 }
 
+.description {
+    padding: 45px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+}
+
+p.seperated {
+    margin: 15px 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
 .sign-up {
     background-color: #fff;
 }
