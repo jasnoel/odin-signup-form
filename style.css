@@ -4,7 +4,6 @@
 }
 
 :root {
-    text-align: center;
     font-size: 17px;
     height: 100vh;
     background-color: #dbdbdb;
@@ -75,4 +74,32 @@ p.seperated {
 
 .sign-up {
     background-color: #fff;
+}
+
+.sign-up h3 {
+    padding: 13px 45px;
+    font-size: 1.4rem;
+}
+
+.sign-up form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.sign-up form div {
+    padding: 15px 45px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    width: 200px;
+}
+
+.sign-up form div label {
+    color: #727272;
+    font-weight: 600;
+}
+
+.sign-up form div input {
 }
