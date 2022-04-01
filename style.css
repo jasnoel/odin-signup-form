@@ -4,6 +4,7 @@
 }
 
 :root {
+    box-sizing: border-box;
     font-size: 17px;
     height: 100vh;
     background-color: #dbdbdb;
@@ -101,5 +102,28 @@ p.seperated {
     font-weight: 600;
 }
 
-.sign-up form div input {
+section.submit {
+    padding: 20px 45px;
+}
+
+button {
+    background-color: #006100;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #019c01;
+}
+
+section.submit p a {
+    color: #006100;
+    text-decoration: none;
+}
+
+section.submit p a:hover {
+    text-decoration: underline;
 }
