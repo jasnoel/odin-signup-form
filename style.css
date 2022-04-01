@@ -1,0 +1,33 @@
+:root {
+    text-align: center;
+    font-size: 17px;
+    height: 100vh;
+    background-color: #dbdbdb;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 40%;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main>section {
+    flex-grow: 1;
+}
+
+.sign-up {
+    background-color: #fff;
+}
