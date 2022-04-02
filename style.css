@@ -80,24 +80,38 @@ section.sign-up {
     font-size: 1.4rem;
 }
 
-.sign-up form {
+.sign-up>div {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
 }
 
-.sign-up form div {
-    padding: 15px 90px 45px 0;
-    /* border: 1px solid black; */
+.sign-up>div>div {
+    padding: 15px 90px 15px 0;
     display: flex;
     flex-direction: column;
     font-size: 0.8rem;
     width: 200px;
 }
 
-.sign-up form div label {
-    color: #727272;
+.sign-up>div>div label {
+    color: #616161;
     font-weight: 600;
+}
+
+.sign-up>div>div input {
+    border: 2px solid#d4d4d4;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.sign-up>div>div input:not(:focus):not(:placeholder-shown):invalid {
+    border-color: #ff0000;
+}
+
+.sign-up>div>div input:focus {
+    background-color: #0051ff44;
+    box-shadow: 2px 2px 3px 0px #000000;
 }
 
 section.submit {
